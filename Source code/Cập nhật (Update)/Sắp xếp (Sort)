@@ -1,0 +1,11 @@
+// Hàm so sánh phục vụ cho qsort (Sắp xếp theo Tên - Alphabet)
+int SoSanhTheoTen(const void* a, const void* b) {
+    VatPham* vpA = (VatPham*)a;
+    VatPham* vpB = (VatPham*)b;
+    return strcmp(vpA->ten, vpB->ten);
+}
+
+// Tính năng 6: Sắp xếp
+void SapXepDuLieu() {
+    qsort(khoDuLieu, soLuong, sizeof(VatPham), SoSanhTheoTen);
+}

@@ -1,0 +1,5 @@
+# 1. Tạo một tệp tin mới tên là kebab_renamer.c
+# 2. Mở Command Prompt (CMD), di chuyển vào thư mục gốc của dự án bằng lệnh cd và tiến hành biên dịch mã nguồn:
+## cd /d "Đường_dẫn_đến_thư_mục_chứa_code"
+## gcc kebab_renamer.c -o rename_tool.exe -municode
+# 3. Khởi 

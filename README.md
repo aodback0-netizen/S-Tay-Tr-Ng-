@@ -96,7 +96,7 @@
     *   *Ấm Thủy Tinh Có Lõi Lọc:* Tiện lợi để ngắm nhìn hoa cúc nở bung trong nước.
 *   **Chén trà (Teacup):**
     *   *Chén Sứ Thấu Quang:* Thân chén mỏng, ánh sáng có thể xuyên qua, tôn lên sắc đỏ của hồng trà.
-    *   *Bát Trà Lớn:* Thích hợp để uống trà thảo mộc theo lối mộc mạc.
+    *   *Chén Trà Lớn:* Thích hợp để uống trà thảo mộc theo lối mộc mạc.
 *   **Trà cụ đi kèm (Tea Accessories):**
     *   *Đế nến giữ nhiệt:* Giữ cho ấm trà thủy tinh luôn ấm nóng suốt buổi chiều.
     *   *Gác ấm:* Miếng lót bằng gỗ hoặc gốm để đặt nắp ấm lên khi mở nắp.

@@ -1,0 +1,9 @@
+// Tính năng 5: Lọc theo phân loại
+void LocTheoPhanLoai(const char* danhMuc) {
+    printf("\n--- KET QUA LOC: %s ---\n", danhMuc);
+    for (int i = 0; i < soLuong; i++) {
+        if (strcmp(khoDuLieu[i].phanLoai, danhMuc) == 0) {
+            printf("- [%d] %s\n", khoDuLieu[i].id, khoDuLieu[i].ten);
+        }
+    }
+}

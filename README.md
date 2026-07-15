@@ -105,10 +105,6 @@
 
 ## 🛠️ Đóng Góp Thông Tin (Contribute)
 
-Em rất mong nhận được sự chia sẻ về các loại trà và trà cụ quý từ bạn. Vui lòng bấm vào các đường dẫn tương ứng dưới đây để bổ sung thông tin vào kho dữ liệu:
 
-*   💾 [Cập nhật danh sách các loại TRÀ tại đây](https://example.com/database/tea-list)
-*   💾 [Cập nhật danh sách các loại ẤM TRÀ tại đây](https://example.com/database/teapots-list)
-*   💾 [Cập nhật danh sách các loại CHÉN TRÀ tại đây](https://example.com/database/teacups-list)
 
 > *"Bình tâm nhìn khói quyện / Nhấp ngụm trà an nhiên."* Chúc bạn có những phút giây thư thái bên bàn trà!

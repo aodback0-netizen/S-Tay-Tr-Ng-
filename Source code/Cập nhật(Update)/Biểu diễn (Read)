@@ -1,0 +1,9 @@
+// Tính năng 1: Biểu diễn dữ liệu
+void HienThiDanhSach() {
+    printf("\n--- DANH SACH VAT PHAM ---\n");
+    printf("%-5s | %-35s | %-15s\n", "ID", "Ten Vat Pham", "Phan Loai");
+    printf("----------------------------------------------------------\n");
+    for (int i = 0; i < soLuong; i++) {
+        printf("%-5d | %-35s | %-15s\n", khoDuLieu[i].id, khoDuLieu[i].ten, khoDuLieu[i].phanLoai);
+    }
+}

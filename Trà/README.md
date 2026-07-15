@@ -4,7 +4,7 @@
 
 Dưới đây là từng đường dẫn dưới đây để xem chi tiết từng bài phân tích
 
-1. [Trà Thái Nguyên (Móc Câu / Nõn Tôm)](Tra_Thai_Nguyen.md)
+1. [Trà Thái Nguyên (Móc Câu / Nõn Tôm)](Trà-Thái-Nguyên)
 2. [Trà Long Tỉnh](Tra_Long_Tinh.md)
 3. [Trà Matcha (Nhật Bản)](Tra_Matcha.md)
 4. [Trà Shan Tuyết Cổ Thụ](Tra_Shan_Tuyet_Co_Thu.md)

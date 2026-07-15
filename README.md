@@ -143,3 +143,21 @@ Vui lòng truy cập vào từng tệp tin để xem báo cáo chi tiết:
 11. [Ấm Tử Sa Tây Thi](./am-tu-sa-tay-thi.md)
 12. [Ấm Đất Nung Chu Nê](./am-dat-nung-chu-ne.md)
 13. [Ấm Đất Nung Không Men](./am-dat-nung-khong-men.md)
+# Danh sách chén trà
+
+1. [Chén Bạch Định](./chen-bach-dinh.md)
+2. [Chén Khải](./chen-khai.md)
+3. [Chén Kiến Diêu](./chen-kien-dieu.md)
+4. [Chén Men Rạn Cổ](./chen-men-ran-co.md)
+5. [Chén Mắt Công](./chen-mat-cong.md)
+6. [Chén Quân Dáng Ngưỡng Bản](./chen-quan-dang-nguong-ban.md)
+7. [Chén Quân Lớn](./chen-quan-lon.md)
+8. [Chén Sứ Men Ngọc](./chen-su-men-ngoc.md)
+9. [Chén Sứ Men Thanh Hoa](./chen-su-men-thanh-hoa.md)
+10. [Chén Sứ Thấu Quang](./chen-su-thau-quang.md)
+11. [Chén Sứ Trắng Vẽ Hoa Sen](./chen-su-trang-ve-hoa-sen.md)
+12. [Chén Thủy Tinh Hai Lớp](./chen-thuy-tinh-hai-lop.md)
+13. [Chén Tử Xa](./chen-tu-xa.md)
+14. [Chén Vành Rộng](./chen-vanh-rong.md)
+# Danh sách trà cụ
+

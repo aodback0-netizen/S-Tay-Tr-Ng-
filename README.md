@@ -161,3 +161,17 @@ Vui lòng truy cập vào từng tệp tin để xem báo cáo chi tiết:
 14. [Chén Vành Rộng](./chen-vanh-rong.md)
 # Danh sách trà cụ
 
+1. [Chasen](./chasen.md)
+2. [Dao tách trà Phổ Nhĩ](./dao-tach-tra-pho-nhi.md)
+3. [Gác ấm](./gac-am.md)
+4. [Khay trà tre](./khay-tra-tre.md)
+5. [Khăn lau bàn trà](./khan-lau-ban-tra.md)
+6. [Kẹp gắp chén](./kep-gap-chen.md)
+7. [Lư xông trầm](./lu-xong-tram.md)
+8. [Lọc trà](./loc-tra.md)
+9. [Muỗng xúc trà](./muong-xuc-tra.md)
+10. [Thuyền trà](./thuyen-tra.md)
+11. [Thưởng nhạc bàn trà](./thuong-nhac-ban-tra.md)
+12. [Tống trà](./tong-tra.md)
+13. [Đế nến giữ nhiệt](./de-nen-giu-nhiet.md)
+14. [Đồng hồ cát đo thời gian](./dong-ho-cat-do-thoi-gian.md)

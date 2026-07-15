@@ -1,0 +1,10 @@
+// Tính năng 2: Thêm mới
+bool ThemVatPham(int id, const char* ten, const char* phanLoai) {
+    if (soLuong >= MAX_ITEMS) return false; // Tràn bộ nhớ
+    
+    khoDuLieu[soLuong].id = id;
+    strncpy(khoDuLieu[soLuong].ten, ten, STR_LEN - 1);
+    strncpy(khoDuLieu[soLuong].phanLoai, phanLoai, STR_LEN - 1);
+    soLuong++;
+    return true;
+}

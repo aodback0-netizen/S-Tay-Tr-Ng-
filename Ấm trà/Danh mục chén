@@ -1,0 +1,20 @@
+=========================================================================================================================
+[TABLE 3: DANH MUC CHEN TRA - TEACUP DATABASE]
++--------------------------------+-----------------------------+------------------+---------+-----------------+-----------+
+| TEN TEP (14)                   | PATH                        | MAU SAC          | THE TICH| DAC TINH BE MAT | GIA (VND) |
++--------------------------------+-----------------------------+------------------+---------+-----------------+-----------+
+| Chen Bach Dinh                 | /db/chen/bach-dinh.md       | Trang nga        | 40ml    | Men mo          | 900.000   |
+| Chen Khai                      | /db/chen/chen-khai.md       | Trang/Hoa tiet   | 120ml   | Gom nap,than,de | 450.000/c |
+| Chen Kien Dieu                 | /db/chen/kien-dieu.md       | Den anh kim      | 60ml    | Anh sao         | 2.500.000 |
+| Chen Men Ran Co                | /db/chen/men-ran.md         | Ghi xam/Nut      | 50ml    | Vet nut tu nhien| 1.200.000 |
+| Chen Mat Cong                  | /db/chen/mat-cong.md        | Xanh duong/Den   | 55ml    | Hieu ung giot   | 1.800.000 |
+| Chen Quan Dang Nguong Ban      | /db/chen/quan-nguong.md     | Xanh ngoc lan    | 45ml    | Mieng loe       | 1.600.000 |
+| Chen Quan Lon                  | /db/chen/quan-lon.md        | Do tia/Xanh      | 80ml    | Doi mau lo nung | 2.000.000 |
+| Chen Su Men Ngoc               | /db/chen/men-ngoc.md        | Xanh ngoc bich   | 50ml    | Mat me, bong    | 1.400.000 |
+| Chen Su Men Thanh Hoa          | /db/chen/thanh-hoa.md       | Trang xanh lam   | 45ml    | Hoa tiet duoi   | 1.100.000 |
+| Chen Su Thau Quang             | /db/chen/thau-quang.md      | Trang tinh       | 40ml    | Mong xuyen sang | 2.800.000 |
+| Chen Su Trang Ve Hoa Sen       | /db/chen/trang-sen.md       | Trang/Hong phan  | 45ml    | Ve tay tinh xao | 1.500.000 |
+| Chen Thuy Tinh Hai Lop         | /db/chen/thuy-tinh.md       | Trong suot       | 50ml    | Cach nhiet      | 450.000   |
+| Chen Tu Sa                     | /db/chen/tu-sa.md           | Nau/Do/Tim       | 40ml    | Chen moc        | 1.300.000 |
+| Chen Vanh Rong                 | /db/chen/vanh-rong.md       | Tuy bien         | 60ml    | De ngui huong   | 800.000   |
++--------------------------------+-----------------------------+------------------+---------+-----------------+-----------+

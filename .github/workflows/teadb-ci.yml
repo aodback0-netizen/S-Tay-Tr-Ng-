@@ -1,29 +1,36 @@
-name: TeaDB C-Engine Runner
+name: TeaDB Complete CRUD Engine
 
 on:
   push:
     branches: [ "main", "master" ]
   pull_request:
     branches: [ "main", "master" ]
-  # Cho phép kích hoạt thủ công từ giao diện GitHub
-  workflow_dispatch: 
+  workflow_dispatch:
 
 jobs:
-  build-and-run:
+  execute-engine:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
+    - name: Checkout Code
       uses: actions/checkout@v4
 
-    - name: Compiler Check
-      run: gcc --version
-
-    - name: Compile C Engine
+    - name: Compile C Core Engine
       run: gcc -o teadb main.c
 
-    - name: Run Engine (Toàn bộ cơ sở dữ liệu)
-      run: ./teadb
+    - name: Test Functional 1 - Read All
+      run: ./teadb read
 
-    - name: Run Engine (Tra cứu cụ thể: Chỉ xuất Ấm và Trà cụ)
-      run: ./teadb am tracu
+    - name: Test Functional 2 - Search Keyword
+      run: ./teadb search "Tử Sa"
+
+    - name: Test Functional 3 - Sort Database
+      run: ./teadb sort
+
+    - name: Test Functional 4 - Filter Price Range (500k -> 1.5M)
+      run: ./teadb filter 500000 1500000
+
+    - name: Test Functional 5 & 6 - Add & Delete Operations
+      run: |
+        ./teadb add "Trà" "Tra_Test_CI" "Du lieu kiem thu CI Action"
+        ./teadb delete "Trà/Tra_Test_CI.md"

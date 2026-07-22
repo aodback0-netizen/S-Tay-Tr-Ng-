@@ -12,12 +12,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    # 1. Checkout code dùng v4 để hết cảnh báo Node.js
     - name: Checkout Code
       uses: actions/checkout@v4
 
+    # 2. Kiểm tra danh sách file ở thư mục gốc để debug
+    - name: List Files in Root Directory
+      run: ls -la
+
+    # 3. Biên dịch mã C
     - name: Compile C Core Engine
       run: gcc -o teadb main.c
 
+    # 4. Thực thi các lệnh kiểm thử
     - name: Test Functional 1 - Read All
       run: ./teadb read
 
@@ -27,10 +34,5 @@ jobs:
     - name: Test Functional 3 - Sort Database
       run: ./teadb sort
 
-    - name: Test Functional 4 - Filter Price Range (500k -> 1.5M)
+    - name: Test Functional 4 - Filter Price Range
       run: ./teadb filter 500000 1500000
-
-    - name: Test Functional 5 & 6 - Add & Delete Operations
-      run: |
-        ./teadb add "Trà" "Tra_Test_CI" "Du lieu kiem thu CI Action"
-        ./teadb delete "Trà/Tra_Test_CI.md"

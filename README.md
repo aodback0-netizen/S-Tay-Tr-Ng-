@@ -130,7 +130,7 @@ Vui lòng truy cập vào từng tệp tin để xem báo cáo chi tiết:
 14. [Trà Ướp Bông Sen Tây Hồ](./Trà_Ướp_Bông_Sen_Tây_Hồ.md)
 # Danh sách ấm trà
 
-1. [Ấm Bạc](./am-bac.md)
+1. [Ấm Bạc](./Ấm_Bạc.md)
 2. [Ấm Gốm Kyusu](./am-gom-kyusu.md)
 3. [Ấm Sứ Cảnh Đức Trấn](./am-su-canh-duc-tran.md)
 4. [Ấm Sứ Vẽ Tay](./am-su-ve-tay.md)

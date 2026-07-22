@@ -1,0 +1,20 @@
+=========================================================================================================================
+[TABLE 2: DANH MUC AM TRA - TEAPOT DATABASE]
++--------------------------------+-----------------------------+------------------+---------+-----------------+-----------+
+| TEN TEP (14)                   | PATH                        | MAU SAC          | THE TICH| DAC TINH        | GIA (VND) |
++--------------------------------+-----------------------------+------------------+---------+-----------------+-----------+
+| Am Bac                         | /db/am/am-bac.md            | Bac sang         | 180ml   | Khang khuan     | 8.500.000 |
+| Am Gom Kyusu                   | /db/am/kyusu.md             | Den xam/Do dat   | 250ml   | Tay cam ngang   | 1.200.000 |
+| Am Su Canh Duc Tran            | /db/am/canh-duc-tran.md     | Trang men trong  | 150ml   | Mong nhe        | 2.500.000 |
+| Am Su Ve Tay                   | /db/am/su-ve-tay.md         | Hoa tiet da sac  | 180ml   | Khong bam mui   | 1.800.000 |
+| Am Thuy Tinh                   | /db/am/thuy-tinh.md         | Trong suot       | 300ml   | De quan sat     | 450.000   |
+| Am Thuy Tinh Co Loi Loc        | /db/am/thuy-tinh-loc.md     | Trong suot       | 400ml   | Loc ba tien loi | 650.000   |
+| Am Tu Sa Bao Xuan              | /db/am/ts-bao-xuan.md       | Do nau (Hong ne) | 220ml   | Dang canh mai   | 3.200.000 |
+| Am Tu Sa Dung Thien            | /db/am/ts-dung-thien.md     | Tim tham (Tu ne) | 260ml   | Bung to, de pha | 2.800.000 |
+| Am Tu Sa Thach Bieu            | /db/am/ts-thach-bieu.md     | Nau den (Hac ne) | 160ml   | Hinh chop, manh | 4.000.000 |
+| Am Tu Sa Thuy Binh             | /db/am/ts-thuy-binh.md      | Do cam (Chu ne)  | 120ml   | Noi tren nuoc   | 3.500.000 |
+| Am Tu Sa Tay Thi               | /db/am/ts-tay-thi.md        | Tim tham (Tu ne) | 140ml   | Tron bau, nho   | 2.200.000 |
+| Am Tu Sa Phong Co (*)          | /db/am/ts-phong-co.md       | Nau vang(Doan ne)| 200ml   | Mieng rong      | 2.600.000 |
+| Am Dat Nung Chu Ne             | /db/am/dat-chu-ne.md        | Do gach          | 130ml   | Rong xop        | 1.500.000 |
+| Am Dat Nung Khong Men          | /db/am/dat-khong-men.md     | Dat moc          | 150ml   | Luu mui tra     | 900.000   |
++--------------------------------+-----------------------------+------------------+---------+-----------------+-----------+

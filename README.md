@@ -111,9 +111,11 @@
 ---
 # Danh sách trà
 
-Đây là hệ thống 14 tài liệu phân tích về các loại trà mộc và trà ướp hương mà em đã tổng hợp lại.Em đã viết toàn bộ cấu trúc dựa trên sự tìm hiểu về nguồn gốc, bản chất hương vị, và đặc biệt là cách thức thưởng trà sao cho trọn vẹn và bảo vệ sức khỏe nhất.
-Dưới đây là từng đường dẫn dưới đây để xem chi tiết từng bài phân tích
-Vui lòng truy cập vào từng tệp tin để xem báo cáo chi tiết:
+# Danh sách trà
+
+Đây là hệ thống 14 tài liệu phân tích về các loại trà mộc và trà ướp hương mà em đã tổng hợp lại. Em đã viết toàn bộ cấu trúc dựa trên sự tìm hiểu về nguồn gốc, bản chất hương vị, và đặc biệt là cách thức thưởng trà sao cho trọn vẹn và bảo vệ sức khỏe nhất.
+Dưới đây là từng đường dẫn để xem chi tiết từng bài phân tích. Vui lòng truy cập vào từng tệp tin để xem báo cáo chi tiết:
+
 1. [Bạch Trà Bạch Hào Ngân Châm](./Bạch_Trà_Bạch_Hào_Ngân_Châm.md)
 2. [Hồng Trà](./Hồng_Trà.md)
 3. [Trà Hoa Cúc Kỷ Tử](./Trà_Hoa_Cúc_Kỷ_Tử.md)
@@ -128,9 +130,9 @@ Vui lòng truy cập vào từng tệp tin để xem báo cáo chi tiết:
 12. [Trà Ô Long Đông Phương Mỹ Nhân](./Trà_Ô_Long_Đông_Phương_Mỹ_Nhân.md)
 13. [Trà Đại Hồng Bào](./Trà_Đại_Hồng_Bào.md)
 14. [Trà Ướp Bông Sen Tây Hồ](./Trà_Ướp_Bông_Sen_Tây_Hồ.md)
-# Danh sách ấm trà
 
-1. [Ấm Bạc](./Ấm_Bạc.md)
+# Danh sách ấm trà
+1. [Ấm Bạc](./am-bac.md)
 2. [Ấm Gốm Kyusu](./am-gom-kyusu.md)
 3. [Ấm Sứ Cảnh Đức Trấn](./am-su-canh-duc-tran.md)
 4. [Ấm Sứ Vẽ Tay](./am-su-ve-tay.md)
@@ -143,8 +145,8 @@ Vui lòng truy cập vào từng tệp tin để xem báo cáo chi tiết:
 11. [Ấm Tử Sa Tây Thi](./am-tu-sa-tay-thi.md)
 12. [Ấm Đất Nung Chu Nê](./am-dat-nung-chu-ne.md)
 13. [Ấm Đất Nung Không Men](./am-dat-nung-khong-men.md)
-# Danh sách chén trà
 
+# Danh sách chén trà
 1. [Chén Bạch Định](./chen-bach-dinh.md)
 2. [Chén Khải](./chen-khai.md)
 3. [Chén Kiến Diêu](./chen-kien-dieu.md)
@@ -159,8 +161,8 @@ Vui lòng truy cập vào từng tệp tin để xem báo cáo chi tiết:
 12. [Chén Thủy Tinh Hai Lớp](./chen-thuy-tinh-hai-lop.md)
 13. [Chén Tử Xa](./chen-tu-xa.md)
 14. [Chén Vành Rộng](./chen-vanh-rong.md)
-# Danh sách trà cụ
 
+# Danh sách trà cụ
 1. [Chasen](./chasen.md)
 2. [Dao tách trà Phổ Nhĩ](./dao-tach-tra-pho-nhi.md)
 3. [Gác ấm](./gac-am.md)
@@ -172,6 +174,3 @@ Vui lòng truy cập vào từng tệp tin để xem báo cáo chi tiết:
 9. [Muỗng xúc trà](./muong-xuc-tra.md)
 10. [Thuyền trà](./thuyen-tra.md)
 11. [Thưởng nhạc bàn trà](./thuong-nhac-ban-tra.md)
-12. [Tống trà](./tong-tra.md)
-13. [Đế nến giữ nhiệt](./de-nen-giu-nhiet.md)
-14. [Đồng hồ cát đo thời gian](./dong-ho-cat-do-thoi-gian.md)

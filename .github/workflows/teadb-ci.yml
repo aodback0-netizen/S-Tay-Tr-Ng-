@@ -1,0 +1,29 @@
+name: TeaDB C-Engine Runner
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+  # Cho phép kích hoạt thủ công từ giao diện GitHub
+  workflow_dispatch: 
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Compiler Check
+      run: gcc --version
+
+    - name: Compile C Engine
+      run: gcc -o teadb main.c
+
+    - name: Run Engine (Toàn bộ cơ sở dữ liệu)
+      run: ./teadb
+
+    - name: Run Engine (Tra cứu cụ thể: Chỉ xuất Ấm và Trà cụ)
+      run: ./teadb am tracu

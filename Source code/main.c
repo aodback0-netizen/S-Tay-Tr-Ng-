@@ -1,14 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <dirent.h>
+#include <sys/stat.h>
 
-// Tích hợp thư viện xử lý bảng mã cho môi trường Windows
 #ifdef _WIN32
 #include <windows.h>
 #endif
 
+#define MAX_ITEMS 100
+
 // Cấu trúc định nghĩa danh mục thư viện trà
 typedef struct {
-    char category[30];
+    char category[50];
     char path[100];
 } TeaLibrary;
 
@@ -19,8 +23,6 @@ void renderTable(TeaLibrary items[], int size) {
     printf("+--------------------------------+------------------------------------------------+\n");
     
     for (int i = 0; i < size; i++) {
-        // Căn lề trái các chuỗi UTF-8. Lưu ý: Ký tự có dấu có thể chiếm nhiều byte hơn,
-        // nhưng với giao diện console cơ bản, %-30s vẫn giữ được cấu trúc lưới ở mức ổn định.
         printf("| %-30s | %-46s |\n", items[i].category, items[i].path);
     }
     
@@ -28,23 +30,49 @@ void renderTable(TeaLibrary items[], int size) {
 }
 
 int main() {
-    // Thiết lập bảng mã UTF-8 cho dòng lệnh trước khi in dữ liệu
+    // Thiết lập bảng mã UTF-8 cho dòng lệnh Windows
     #ifdef _WIN32
     SetConsoleOutputCP(CP_UTF8);
     #endif
 
-    // Khởi tạo dữ liệu ánh xạ tiếng Việt có dấu
-    TeaLibrary library[] = {
-        {"Trà", "./Tra"},
-        {"Ấm trà", "./Am tra"},
-        {"Chén trà", "./Chen tra"},
-        {"Trà cụ", "./Tra cu"}
-    };
-    
-    int size = sizeof(library) / sizeof(library[0]);
+    TeaLibrary library[MAX_ITEMS];
+    int count = 0;
 
-    printf("\nHệ Thống Quản Lý Thư Viện Trà\n");
-    renderTable(library, size);
+    // Mở thư mục hiện tại
+    DIR *dir = opendir(".");
+    if (dir == NULL) {
+        printf("Lỗi hệ thống: Không thể cấp phát luồng đọc thư mục.\n");
+        return EXIT_FAILURE;
+    }
+
+    struct dirent *ent;
+    struct stat path_stat;
+
+    // Quét động các thành phần bên trong
+    while ((ent = readdir(dir)) != NULL) {
+        // Bỏ qua các thành phần ẩn của hệ thống (ví dụ: .git, .github, ., ..)
+        if (ent->d_name[0] == '.') {
+            continue;
+        }
+
+        // Truy xuất metadata để xác minh đối tượng là thư mục
+        stat(ent->d_name, &path_stat);
+        if (S_ISDIR(path_stat.st_mode)) {
+            strncpy(library[count].category, ent->d_name, sizeof(library[count].category) - 1);
+            snprintf(library[count].path, sizeof(library[count].path), "./%s", ent->d_name);
+            
+            count++;
+            if (count >= MAX_ITEMS) break;
+        }
+    }
+    closedir(dir);
+
+    printf("\nHệ Thống Quản Lý Thư Viện Trà (Quét Tự Động)\n");
+    if (count > 0) {
+        renderTable(library, count);
+    } else {
+        printf("Không tìm thấy cấu trúc dữ liệu hợp lệ trong vùng nhớ.\n");
+    }
 
     return 0;
 }

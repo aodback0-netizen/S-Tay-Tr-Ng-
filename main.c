@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <dirent.h>
-
+//Do sthg worth it
 // Hàm quét và đếm số lượng tệp trong một thư mục cụ thể
 void scan_directory(const char* dir_name, const char* label) {
     DIR *dir;
